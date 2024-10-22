@@ -3,6 +3,7 @@ dataset = pd.read_csv(r'C:\Users\hp\OneDrive\Desktop\PROJECT SCHOOL\archive\fitn
 print(dataset.head(20))
 dataset.fillna(dataset.mean(), inplace=True)
 input_data = dataset[['steps', 'distance_km', 'workout_type']]
+print("Helloworld")
 
 
 
